@@ -1,4 +1,4 @@
-replicaCount: 3
+replicaCount: 2
 
 image:
   repository: nginx
@@ -10,4 +10,4 @@ service:
   port: 80
 
 config:
-  mensaje: "Aplicacion actualizada automaticamente con Argo CD"
+  mensaje: "Aplicacion desplegada con Kubernetes y Helm"
